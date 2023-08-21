@@ -20,7 +20,12 @@ function AddTodo() {
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
-      <button className="bg-green-800 text-white text-center p-2">Add</button>
+      <button
+        type="submit"
+        className="bg-green-800 text-white text-center p-2 rounded-md "
+      >
+        Add
+      </button>
     </form>
   );
 }
